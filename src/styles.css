@@ -1,0 +1,45 @@
+:root {
+  --background-color: #e6ffe6;
+  --primary-color: #4dff4d;
+  --nav-color: #99ff99;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: var(--background-color);
+}
+.btn-outline-secondary {
+  font-size: 1.2rem;
+  border: 2px solid black;
+}
+
+.btn-outline-secondary:hover {
+  border: 1px solid black;
+  background-color: var(--primary-color);
+  color: black;
+  font-size: 1.4rem;
+}
+
+.header {
+  font-size: 2rem;
+  font-family: cursive;
+  text-decoration: underline;
+}
+.header:hover {
+  font-size: 2.2rem;
+  color: var(--primary-color);
+}
+
+.description {
+  font-size: 1.1rem;
+  font-family: cursive;
+  color: grey;
+}
+.description:hover {
+  font-size: 1.2rem;
+  color: black;
+}
